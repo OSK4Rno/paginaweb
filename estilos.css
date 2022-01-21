@@ -1,0 +1,109 @@
+* {box-sizing: border-box;
+margin: 0;
+font-family: arial;}
+
+nav { background-color: brown;
+display: flex;
+align-items: center;
+justify-content: space-around;
+height: 100px;
+font-weight: bold; }
+
+nav a { text-decoration: none;
+color: white; }
+
+nav a:hover { color: yellow; }
+
+.titulo { color: brown;
+text-align: center;
+font-weight: bold; }
+
+header { background-image: url(images/arq.jpg);
+background-size: cover;
+padding: 100px; }
+
+header div { height: 300%;
+	text-align: center; }
+
+header h1 { font-size: 80px;
+color: yellow;
+text-shadow: 3px 3px 3px black; }
+
+header h3 { color: white;
+text-shadow: 3px 3px 3px black; }
+
+
+/* estilos de la sección servicios */
+
+.titulo2 { font-weight: bold;
+text-align: center; }
+
+#servicios { flex-wrap: wrap; 
+padding: 40px;
+display: flex;
+justify-content: space-around; }
+
+#contenedor-servicios { display: flex; 
+padding: 20px;}
+
+
+
+/* estilos de la sección obras */
+
+#obras { background-color: peachpuff; }
+
+#contenedor-casa { display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+padding-top: 20px; }
+
+#contenedor-casa img { width: 90%;
+flex-wrap: wrap;
+align-items: center; }
+
+#contenedor-casa p { font-style: italic;
+text-align: center;}
+
+.casa { width: 28%; }
+
+/* estilos de footer */
+
+footer { background-color: gray;
+color: white;
+text-align: center;
+padding: 30px; }
+
+#contenedor-info { border-top: 2px solid white;
+padding: 20px;
+display: flex;
+justify-content: space-around; }
+
+footer h3 { font-weight: bold; }
+
+#contenedor-info div {width: 27%; }
+
+#enlaces a { display: flex;
+justify-content: space-around; }
+
+#titulo-footer { padding-bottom: 10px; }
+
+#contacto form  { background-color: lightgrey;
+border-radius: 10px;
+padding: 20px; }
+
+#contacto { padding-right: 40px;
+padding-left: 40px;
+padding-bottom: 20px; }
+
+#contacto input { width: 80%;
+padding: 10px;
+border-radius: 5px;
+margin-bottom: 10px;
+border: 1px solid lightgrey;
+font-size: 1.2em; }
+
+#contacto label { width: 20%;
+display: block;
+font-weight: bold;
+color: brown;
+font-size: 1.2em; }
